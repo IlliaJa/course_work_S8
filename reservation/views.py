@@ -4,6 +4,7 @@ from .forms import ReserveTableForm
 
 from reservation.models import Reservation
 
+
 def reserve_table(request):
     reserve_form = ReserveTableForm()
 
